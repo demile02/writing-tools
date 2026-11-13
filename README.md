@@ -31,7 +31,10 @@ npx skills add miqdadbadjuber/anti-slop
 
 ## Cara pasang paket ini
 
+Urutan pasang penting: antislop dulu, baru paket ini, supaya rujukan aturan antar-skill langsung tersambung.
+
 ```bash
+npx skills add miqdadbadjuber/anti-slop
 npx skills add demile02/writing-tools
 ```
 

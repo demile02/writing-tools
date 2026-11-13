@@ -2,6 +2,8 @@
 name: gaya-ilmiah-inggris
 description: "English academic writing patterns from a SINTA 1 corpus (IJIMS, Studia Islamika): scope openings, mapped gap claims, calibrated findings, and English academic AI tells. Load with gaya-ilmiah."
 ---
+
+> Load with gaya-ilmiah. The full stack also needs antislop and antislop-copywriting: `npx skills add miqdadbadjuber/anti-slop` if they are missing.
 # gaya-ilmiah-inggris
 
 > Gaya Ilmiah Inggris: patterns for English scholarly writing from a SINTA 1

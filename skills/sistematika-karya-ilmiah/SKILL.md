@@ -2,6 +2,8 @@
 name: sistematika-karya-ilmiah
 description: "Sistematika dan format penulisan karya tulis ilmiah Indonesia: gerbang acuan resmi dan sumber, halaman A4, Times New Roman, heading dan judul bab, jorok 0,63 cm, tabel identitas dan tanda tangan, daftar isi otomatis, pindaian lampiran, verifikasi render, dan kebiasaan kirim PDF."
 ---
+
+> Companion skills: this skill leads a stack that also needs antislop, antislop-copywriting, gaya-ilmiah, and one of gaya-ilmiah-indonesia or gaya-ilmiah-inggris. The gaya-ilmiah skills ship in this same repository; antislop and antislop-copywriting do not, so install them first if missing: `npx skills add miqdadbadjuber/anti-slop`.
 # Sistematika Karya Ilmiah
 
 ## Start from the official source

@@ -2,6 +2,8 @@
 name: gaya-ilmiah-indonesia
 description: "Indonesian academic writing patterns from a SINTA 1 corpus (JPEP UNY): openings, methods voice, results frames, transitions, and Indonesian AI tells. Load with gaya-ilmiah."
 ---
+
+> Load with gaya-ilmiah. The full stack also needs antislop and antislop-copywriting: `npx skills add miqdadbadjuber/anti-slop` if they are missing.
 # gaya-ilmiah-indonesia
 
 > Gaya Ilmiah Indonesia: pola penulisan karya tulis ilmiah berbahasa

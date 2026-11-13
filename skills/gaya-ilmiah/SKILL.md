@@ -2,6 +2,8 @@
 name: gaya-ilmiah
 description: "Gaya Ilmiah: core filter for academic writing in Indonesian and English from a SINTA 1 journal corpus. Load always for scholarly writing; load with the language sub-skill."
 ---
+
+> Companion skills: the rules cited as R-xx live in antislop and antislop-copywriting, which are not in this repository. If they are not installed yet, install them first: `npx skills add miqdadbadjuber/anti-slop`. The SINTA 1 corpus behind these patterns is the author's local corpus and is not distributed; the patterns apply without it.
 # gaya-ilmiah
 
 > Gaya Ilmiah: Rules for AI Agents Writing Academic Prose. The core filter
