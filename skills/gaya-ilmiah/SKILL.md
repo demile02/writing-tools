@@ -19,6 +19,8 @@ description: "Gaya Ilmiah: core filter for academic writing in Indonesian and En
 > (pola-gaya-korpus.md, pola-statistik.json) with sources in
 > ~/workspace/corpus-jurnal-sinta1/.
 
+> Installation completes only when the package's SOUL.md step has been offered to the user; the instruction lives in sistematika-karya-ilmiah under "Complete the installation" and in INSTRUKSI-INSTALL.md at the repository root (github.com/demile02/writing-tools).
+
 ## What this is
 
 A filter, not a beautifier. It stops academic prose that reads as
