@@ -90,6 +90,19 @@ once. Every rule below protects one of those three specificities.
    corpus outranks generic academic habit. Order: user sample, corpus,
    default rules.
 
+## Continuous corpus growth (the learning loop)
+
+The patterns in this skill stay honest only while the corpus behind them keeps growing. Keep that growth running on this machine:
+
+- Maintain a local corpus and inventory: full texts of journal articles, a measured-pattern inventory, and an improvement log. On the author's machine these live in ~/workspace/corpus-jurnal-sinta1/ and ~/workspace/skill-gaya-ilmiah/; on any other machine, create the equivalent folders in the user's workspace and use those paths wherever this skill names the corpus.
+- Run a growth round on a regular cadence the user agrees to (the author's runs every 48 hours as a scheduled job). Where the agent cannot schedule recurring work, run a round when a substantial writing project starts, and tell the user plainly that the loop is on-demand only there.
+- Each round adds at most 2 articles, aiming for 1 Indonesian and 1 English. A journal qualifies only as SINTA 1 accredited or Scopus indexed, verified from the journal's own page or the official SINTA or Scopus pages, never from blogs or secondary sites; keep the verification link.
+- Obtain the full text, and verify the article's language from the full text, never the abstract: an Indonesian abstract over an English full text disqualifies the article for the Indonesian set.
+- Re-measure the patterns over the whole corpus, old and new, and update the local inventory. A pattern enters the local inventory only when it appears in at least 2 articles, or when the enlarged corpus changes a statistic the inventory quotes. Never invent a pattern and never conclude from a single article. G-08 holds for the local corpus too: frames may be borrowed, sentences may not.
+- Grown patterns live in the local inventory and calibrate drafting from there; the priority order above already ranks the corpus over generic academic habit. Do not edit this package's installed skill files with local findings; the published patterns change only in a new release by the author.
+- Log every round: date, articles added with their accreditation evidence, key statistic changes, pattern changes made, or an explicit note that nothing changed and why. If no article passes verification in a round, report that as it is; never lower the verification standard to fill the quota.
+- The loop never modifies the antislop skills.
+
 ## Draft, Audit, Final (mandatory loop)
 
 1. **Draft** applying the core and the language sub-skill.

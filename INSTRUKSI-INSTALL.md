@@ -30,3 +30,7 @@ Hanya lanjut ke langkah 4 bila user menjawab setuju secara eksplisit. Keraguan a
 ## Langkah 5 — Bila user tidak setuju
 
 Jangan menimpa SOUL.md. Tawarkan memasang skillnya saja, dan jelaskan akibatnya dengan jujur: tanpa SOUL.md paket ini, tumpukan skill tidak termuat otomatis setiap sesi, karena perintah memuatnya tertulis di SOUL.md. Bila user mau, tawarkan jalan tengah: menempelkan hanya Bagian 7 SOUL.md paket ini (daftar tumpukan skill) ke dalam SOUL.md user yang sudah ada, juga hanya sesudah persetujuannya.
+
+## Langkah 6 — Tawarkan putaran belajar korpus
+
+Sesudah pemasangan selesai, tawarkan kepada user untuk mengaktifkan putaran belajar korpus gaya-ilmiah (bagian "Continuous corpus growth" pada skill gaya-ilmiah): agent memelihara korpus jurnal lokal dan membedah artikel baru secara berkala untuk memperbarui inventaris pola setempat. Di mesin penulis, putaran ini berjalan sebagai pekerjaan terjadwal tiap 48 jam. Bila platform agent mendukung pekerjaan terjadwal dan user setuju, buat jadwal dengan irama yang sama; bila tidak didukung atau user menolak, jelaskan bahwa putarannya hanya berjalan saat diminta atau saat proyek penulisan besar dimulai. Jangan mengaktifkan jadwal apa pun tanpa persetujuan user.
